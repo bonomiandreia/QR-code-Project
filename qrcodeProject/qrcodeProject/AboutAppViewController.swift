@@ -22,13 +22,13 @@ class AboutViewController: UIViewController  {
     }
     
     @IBAction func openLinkedin(_ sender: Any) {
-        guard let url = URL(string: "https://linkedin.com/in/andreiabonomi/") else { return }
-        UIApplication.shared.open(url)
+        guard let urlLink = URL(string: "https://linkedin.com/in/andreiabonomi/") else { return }
+        UIApplication.shared.open(urlLink)
     }
     
     @IBAction func openGitHub(_ sender: Any) {
-        guard let url = URL(string: "https:/github.com/bonomiandreia") else { return }
-        UIApplication.shared.open(url)
+        guard let urlLink = URL(string: "https:/github.com/bonomiandreia") else { return }
+        UIApplication.shared.open(urlLink)
         
     }
 }
