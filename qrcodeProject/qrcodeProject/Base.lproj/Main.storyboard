@@ -166,6 +166,9 @@
                                             <constraint firstAttribute="width" constant="55" id="syW-LI-Wf6"/>
                                         </constraints>
                                         <state key="normal" title="Button" image="linkedin"/>
+                                        <connections>
+                                            <action selector="openLinkedin:" destination="Jgf-Kn-1Ej" eventType="touchUpInside" id="3zz-lK-J3m"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d8C-c6-Vog">
                                         <rect key="frame" x="210" y="144" width="52" height="52"/>
@@ -174,6 +177,9 @@
                                             <constraint firstAttribute="width" constant="52" id="eL0-1Y-9Ve"/>
                                         </constraints>
                                         <state key="normal" title="Button" image="25231"/>
+                                        <connections>
+                                            <action selector="openGitHub:" destination="Jgf-Kn-1Ej" eventType="touchUpInside" id="meZ-Dw-c5w"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
