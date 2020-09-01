@@ -55,7 +55,7 @@
                                 <rect key="frame" x="179.5" y="433" width="55" height="30"/>
                                 <state key="normal" title="proxima"/>
                                 <connections>
-                                    <segue destination="Bk3-vV-htB" kind="push" id="Fpb-q3-t9e"/>
+                                    <segue destination="Bk3-vV-htB" kind="show" id="Fpb-q3-t9e"/>
                                 </connections>
                             </button>
                         </subviews>

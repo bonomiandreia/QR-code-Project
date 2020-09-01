@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		AE4EF05524E0C5D2006CA376 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4EF05424E0C5D2006CA376 /* AppDelegate.swift */; };
 		AE4EF05724E0C5D2006CA376 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4EF05624E0C5D2006CA376 /* SceneDelegate.swift */; };
-		AE4EF05924E0C5D2006CA376 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4EF05824E0C5D2006CA376 /* ViewController.swift */; };
+		AE4EF05924E0C5D2006CA376 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4EF05824E0C5D2006CA376 /* QRCodeViewController.swift */; };
 		AE4EF05C24E0C5D2006CA376 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4EF05A24E0C5D2006CA376 /* Main.storyboard */; };
 		AE4EF05E24E0C5D4006CA376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4EF05D24E0C5D4006CA376 /* Assets.xcassets */; };
 		AE4EF06124E0C5D4006CA376 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4EF05F24E0C5D4006CA376 /* LaunchScreen.storyboard */; };
+		AEF7FE6C24F9925500D877D1 /* AboutAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF7FE6B24F9925500D877D1 /* AboutAppViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE4EF05124E0C5D2006CA376 /* qrcodeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qrcodeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4EF05424E0C5D2006CA376 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE4EF05624E0C5D2006CA376 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AE4EF05824E0C5D2006CA376 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE4EF05824E0C5D2006CA376 /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
 		AE4EF05B24E0C5D2006CA376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE4EF05D24E0C5D4006CA376 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE4EF06024E0C5D4006CA376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE4EF06224E0C5D4006CA376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF7FE6B24F9925500D877D1 /* AboutAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				AE4EF05424E0C5D2006CA376 /* AppDelegate.swift */,
 				AE4EF05624E0C5D2006CA376 /* SceneDelegate.swift */,
-				AE4EF05824E0C5D2006CA376 /* ViewController.swift */,
+				AE4EF05824E0C5D2006CA376 /* QRCodeViewController.swift */,
 				AE4EF05A24E0C5D2006CA376 /* Main.storyboard */,
 				AE4EF05D24E0C5D4006CA376 /* Assets.xcassets */,
 				AE4EF05F24E0C5D4006CA376 /* LaunchScreen.storyboard */,
 				AE4EF06224E0C5D4006CA376 /* Info.plist */,
+				AEF7FE6B24F9925500D877D1 /* AboutAppViewController.swift */,
 			);
 			path = qrcodeProject;
 			sourceTree = "<group>";
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE4EF05924E0C5D2006CA376 /* ViewController.swift in Sources */,
+				AE4EF05924E0C5D2006CA376 /* QRCodeViewController.swift in Sources */,
 				AE4EF05524E0C5D2006CA376 /* AppDelegate.swift in Sources */,
+				AEF7FE6C24F9925500D877D1 /* AboutAppViewController.swift in Sources */,
 				AE4EF05724E0C5D2006CA376 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

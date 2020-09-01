@@ -8,18 +8,22 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class QRCodeViewController: UIViewController {
     @IBOutlet weak var generatorButton: UIButton!
     @IBOutlet weak var textgenerator: UITextField!
     @IBOutlet weak var imageQRCODE: UIImageView!
     
+    @IBOutlet weak var menu1: UIView!
+    
     override func viewDidLoad() {
         let imageNil = UIImage(named: "Exclusão 1")
         imageQRCODE.image = imageNil;
-        super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        menu1.layer.cornerRadius = 40;
+        menu1.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
     }
-
+    
     
     @IBAction func generatorQRCODE(_ sender: Any) {
         if let string = textgenerator.text {
