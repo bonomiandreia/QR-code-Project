@@ -46,7 +46,7 @@
                                             <segue destination="Jgf-Kn-1Ej" kind="show" id="vWU-Dq-Bkr"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="text, or number..." borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="isX-sm-bhm">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="text, or number..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="isX-sm-bhm">
                                         <rect key="frame" x="65" y="95" width="245" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -258,6 +258,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="vWU-Dq-Bkr"/>
         <segue reference="hx3-v7-B2t"/>
     </inferredMetricsTieBreakers>
     <resources>
